@@ -6,15 +6,15 @@
 }
 :root{
     --dark: #fefdfe;
-    --light-dark: #B79FD3;
-    --lighter-dark: #ffffff;
+    --light-dark: #f5f5f5;
+    --lighter-dark: #ccc;
     --lighter-blue: #ecf4fa;
-    --primary: #6539AA;
-    --secondary: #78C4E8;
+    --primary: #53D5BE;
+    --secondary: #FC6C77;
     --letter: #222;
     --dark-gray: #82889f;
-    --dark-primary: #40246F;
-    --light-gray: #d8d0d8;
+    --dark-primary: #42AD9A;
+    --light-gray: #998c99;
     --gray: #333;
 }
 
@@ -24,6 +24,9 @@ body{
     font-family: 'StratumNo1 Light' ;
     background-color: var(--dark);
     color: var(--letter);
+}
+h4{
+    color: var(--dark);
 }
 section{
   padding: 5% 0;
@@ -95,7 +98,6 @@ hr{
 	display: block;
 }
 #participar{
-    background-color: var(--lighter-blue);
 }
 #horarios{
 }
@@ -104,13 +106,13 @@ footer{
 
 @media screen and (min-width: 850px) {
     #hero{
-        padding: 15% 30% ;
+        padding: 10% 30% ;
     }
 }
-#hero .display-4{
-    font-weight: 800;
-    color: var(--dark);
-    text-shadow: 4px 0 0 var(--letter), -4px 0 0 var(--letter), 0 4px 0 var(--letter), 0 -4px 0 var(--letter), 1px 1px var(--letter), -2px -2px 0 var(--letter), 2px -2px 0 var(--letter), -2px 2px 0 var(--letter);
+#hero img{
+    background: rgba(255,255,255,0.5);
+    padding: 10px;
+    margin-bottom: 50px;
 }
 #hero hr{
     background: var(--letter) !important;
@@ -157,7 +159,7 @@ p{
 }
 
 #horarios .card{
-    background-color: var(--light-dark)
+    background-color: var(--dark)
 }
 .horario{
     border-radius: 7px;
@@ -207,6 +209,9 @@ ul i{
     .display-4{
         font-size: 2rem;
     }
+}
+#horarios{
+    background: var(--light-dark);
 }
 #horarios ul {
   list-style: none;
