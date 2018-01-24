@@ -24,10 +24,16 @@ body{
     font-family: 'StratumNo1 Light' ;
     background-color: var(--dark);
     color: var(--letter);
+    background-attachment: fixed;
 }
 
 h4{
     color: var(--dark);
+}
+.footer{
+    background: url('img/backto.png');
+    background-attachment: fixed;
+
 }
 section{
   padding: 5% 0;
@@ -94,8 +100,12 @@ hr{
     background-size: cover;
     background-attachment: fixed;
 }
-#participar{
-    background: url('img/gems.png')
+#sala{
+    background: url('img/gems.png');
+    background-attachment: fixed;
+}
+#comunidade h4{
+    color: var(--letter);
 }
 .arrow img{
   margin-left: auto;
@@ -134,7 +144,7 @@ p{
     margin: 0;
 }
 .frame{
-    border: 10px solid var(--letter);
+    padding-top: 10%;
 }
 .sub-title{
     text-align: left;
