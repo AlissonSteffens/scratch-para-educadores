@@ -102,6 +102,9 @@ hr{
 .btn-primary:hover{
     background: var(--dark-primary); /* Old browsers */
 }
+.scratch-day{
+    padding-top: 3.5rem;
+}
 
 /* .nav-item{
     border-bottom: 3px solid var(--dark);
