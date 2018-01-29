@@ -30,18 +30,21 @@ body{
 h4{
     color: var(--dark);
 }
+.div-btn{
+    font-size: 1.5rem;
+}
 
-a{
+a.logo-link{
     color: var(--letter) !important;
     text-decoration: none;
     transition-duration: 0.8s;
 }
-a:hover{
+a.logo-link:hover{
     color: var(--secondary) !important;
     background-color: var(--light-dark);
     text-decoration: none;
 }
-a:visited, a:focus{
+a.logo-link:visited, a.logo-link :focus{
     color: var(--letter) !important;
     text-decoration: none; 
 }
@@ -111,13 +114,17 @@ hr{
     width: 100%;
 } */
 #header{
-    background-image: url('img/bg.jpg');
-    background-size: cover;
+    background-image: url('img/asteroids.png');
     background-attachment: fixed;
 }
 #sala{
     background: url('img/gems.png');
     background-attachment: fixed;
+}
+#comunidade{
+    background: url('img/sciences.png');
+    background-attachment: fixed;
+    
 }
 #comunidade h4{
     color: var(--letter);
