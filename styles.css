@@ -30,6 +30,21 @@ body{
 h4{
     color: var(--dark);
 }
+
+a{
+    color: var(--letter) !important;
+    text-decoration: none;
+    transition-duration: 0.8s;
+}
+a:hover{
+    color: var(--secondary) !important;
+    background-color: var(--light-dark);
+    text-decoration: none;
+}
+a:visited, a:focus{
+    color: var(--letter) !important;
+    text-decoration: none; 
+}
 .footer{
     background: url('img/backto.png');
     background-attachment: fixed;
