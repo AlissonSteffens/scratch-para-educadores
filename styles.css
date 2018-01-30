@@ -117,7 +117,8 @@ hr{
     width: 100%;
 } */
 #header{
-    background-image: url('img/asteroids.png');
+    background-image: url('img/bg.jpg');
+    background-size: cover;
     background-attachment: fixed;
 }
 #sala{
