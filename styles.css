@@ -26,6 +26,9 @@ body{
     color: var(--letter);
     background-attachment: fixed;
 }
+.list-group{
+    font-family: 'Raleway' ;
+}
 
 h4{
     color: var(--dark);
