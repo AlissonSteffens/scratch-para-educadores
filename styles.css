@@ -120,8 +120,7 @@ hr{
     width: 100%;
 } */
 #header{
-    background-image: url('img/bg.jpg');
-    background-size: cover;
+    background-image: url('img/de32b1b833d84391ef2c98899a4665d6.png');
     background-attachment: fixed;
 }
 #sala{
@@ -272,4 +271,24 @@ ul i{
 .btn-primary b{
     color: #efefef;
     font-size: 1.3rem;
+}
+.dev-footer{
+    background-color: #222;
+    color: #eee;
+    margin-bottom: 0;
+}
+.dev-footer P{
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+    color: #eee;
+}
+.dev-footer a{
+    color: #25AFF4;
+}
+.dev-footer .fa-heart{
+    color: #E91E63;
+}
+.dev-footer .fa-code{
+    color: #9C27B0;
 }
