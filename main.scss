@@ -1,5 +1,76 @@
+$pink: #E91E63;
+$purple: #9C27B0;
+$blue: #2196F3;
+$white: #fff;
+
+$lighter: 20;
+html, body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 90%;
+}
+#header{
+    background-image: url('./img/bg.png');
+    background-attachment: fixed;
+    background-size: auto 525px;
+    padding: 75px 10%;
+    img{
+        transition: 1s;
+        &:hover{
+            transform: rotate(5deg);
+        }
+    }   
+}
+#aula{
+    .row{
+        text-align: center;
+    }
+    
+}
 .card{
+    transition: 1s;
     h3{
         text-align: center;
+        color: white;
+    }
+    
+    &:nth-of-type(1){
+        background-color: $blue;
+        &:hover{
+            background-color: darken($blue, $lighter);
+        }
+    }
+    &:nth-of-type(2){
+        background-color: $pink;
+        &:hover{
+            background-color: darken($pink, $lighter);
+        }
+    }
+    &:nth-of-type(3){
+        background-color: $purple;
+        &:hover{
+            background-color: darken($purple, $lighter);
+        }
+    }
+}
+footer{
+    background:#333;
+    color: $white;
+    p{
+        text-align: right;
+        margin: 0;
+        padding: 20px 10%;
+        a{
+            color: darken($white, $lighter*2) !important;
+            text-decoration: none;
+        }
+    }
+    .fa-code{
+        color: $blue;
+    }
+    .fa-heart{
+        color: $pink;
     }
 }

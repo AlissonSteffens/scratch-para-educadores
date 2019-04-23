@@ -1,4 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 90%;
+}
+
+#header {
+  background-image: url("./img/bg.png");
+  background-attachment: fixed;
+  background-size: auto 525px;
+  padding: 75px 10%;
+}
+
+#header img {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#header img:hover {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+#aula .row {
+  text-align: center;
+}
+
+.card {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .card h3 {
   text-align: center;
+  color: white;
+}
+
+.card:nth-of-type(1) {
+  background-color: #2196F3;
+}
+
+.card:nth-of-type(1):hover {
+  background-color: #0960a5;
+}
+
+.card:nth-of-type(2) {
+  background-color: #E91E63;
+}
+
+.card:nth-of-type(2):hover {
+  background-color: #930e3b;
+}
+
+.card:nth-of-type(3) {
+  background-color: #9C27B0;
+}
+
+.card:nth-of-type(3):hover {
+  background-color: #52145d;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+}
+
+footer p {
+  text-align: right;
+  margin: 0;
+  padding: 20px 10%;
+}
+
+footer p a {
+  color: #999999 !important;
+  text-decoration: none;
+}
+
+footer .fa-code {
+  color: #2196F3;
+}
+
+footer .fa-heart {
+  color: #E91E63;
 }
 /*# sourceMappingURL=main.css.map */
